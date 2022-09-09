@@ -1,0 +1,73 @@
+body{
+    background-color: rgb(231, 221, 221);
+}
+
+.kiri {
+    flex: 30%;
+    border: 1px solid rgb(231, 221, 221);
+    width: 300px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+.container {
+    background-color: rgb(231, 221, 221);
+    display: flex;
+    margin: 10px 200px 100px;
+    padding: 80px 20px;
+
+  
+}
+
+
+
+form {
+    margin: 1px auto;
+    width: 350px;
+    padding: 50px;
+    background-color: white;
+    box-shadow: 7px 7px none;
+    border-radius: 10px;
+    box-shadow: 10px 30px 70px rgb(230, 222, 222);
+    
+}
+
+form div {
+    margin-top: 15px;
+}
+
+form label {
+    font-weight: bold;
+}
+
+form input{
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid rgb(231, 231, 231);
+    border-color: black;
+    
+}
+
+form button {
+    background-color:blue;
+    color: white;
+    margin-top: 15px;
+    padding: 8px 170px; /* atas bawah */ 
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.akun {
+    background-color:white;
+    margin-top: 20px;
+    padding: 0px 25px; /* atas bawah */ 
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+}
